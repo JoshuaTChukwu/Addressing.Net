@@ -1,0 +1,7 @@
+{
+  "Key": "US",
+  "Name": "United States",
+  "PostalCodePattern": "\\d{5}(-\\d{4})?",
+  "SubKeys": "CA~NY~TX~FL~WA",
+  "SubNames": "California~New York~Texas~Florida~Washington"
+}

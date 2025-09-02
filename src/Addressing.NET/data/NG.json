@@ -1,0 +1,7 @@
+{
+  "Key": "NG",
+  "Name": "Nigeria",
+  "PostalCodePattern": "\\d{6}",
+  "SubKeys": "LA~FC~KN~RI",
+  "SubNames": "Lagos~FCT Abuja~Kano~Rivers"
+}
