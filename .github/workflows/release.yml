@@ -1,0 +1,102 @@
+name: release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'         # e.g., v0.1.0
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'SemVer to publish (e.g., 0.1.1). If empty and this is a tag build, the tag version will be used.'
+        required: false
+        default: ''
+
+jobs:
+  build-test-pack:
+    runs-on: ubuntu-latest
+    env:
+      DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+      DOTNET_NOLOGO: true
+      SOLUTION_FILE: src/Addressing.NET.sln
+      CORE_PROJ: src/Addressing.NET/Addressing.NET.csproj
+      FLUENT_PROJ: src/Addressing.NET.FluentValidation/Addressing.NET.FluentValidation.csproj
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: |
+            9.0.x
+            6.0.x
+
+      - name: Cache NuGet
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      - name: Derive version
+        id: ver
+        shell: bash
+        run: |
+          INPUT="${{ github.event.inputs.version }}"
+          if [[ -n "$INPUT" ]]; then
+            echo "version=$INPUT" >> $GITHUB_OUTPUT
+          else
+            # Expect tags like v0.1.0
+            TAG="${GITHUB_REF_NAME}"
+            if [[ "$TAG" =~ ^v([0-9]+\.[0-9]+\.[0-9]+)$ ]]; then
+              echo "version=${BASH_REMATCH[1]}" >> $GITHUB_OUTPUT
+            else
+              echo "No version provided and ref is not a SemVer tag. Failing."
+              exit 1
+            fi
+          fi
+          echo "Publishing version: $(cat $GITHUB_OUTPUT | cut -d= -f2)"
+
+      - name: Restore
+        run: dotnet restore $SOLUTION_FILE
+
+      - name: Build (Release)
+        run: dotnet build $SOLUTION_FILE -c Release --no-restore
+
+      - name: Test (Release)
+        run: dotnet test $SOLUTION_FILE -c Release --no-build --verbosity normal
+
+      - name: Pack Addressing.NET
+        run: |
+          dotnet pack "$CORE_PROJ" -c Release -o ./nupkgs \
+            -p:ContinuousIntegrationBuild=true \
+            -p:Version=${{ steps.ver.outputs.version }}
+      - name: Pack Addressing.NET.FluentValidation
+        run: |
+          dotnet pack "$FLUENT_PROJ" -c Release -o ./nupkgs \
+            -p:ContinuousIntegrationBuild=true \
+            -p:Version=${{ steps.ver.outputs.version }}
+
+      - name: Upload nupkgs (artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: nupkgs
+          path: nupkgs/*.nupkg
+
+      - name: Upload snupkgs (symbols)
+        uses: actions/upload-artifact@v4
+        with:
+          name: snupkgs
+          path: nupkgs/*.snupkg
+
+      - name: Publish to NuGet.org
+        if: ${{ secrets.NUGET_API_KEY != '' }}
+        env:
+          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+        run: |
+          dotnet nuget push ./nupkgs/*.nupkg --api-key "$NUGET_API_KEY" --source https://api.nuget.org/v3/index.json
+          dotnet nuget push ./nupkgs/*.snupkg --api-key "$NUGET_API_KEY" --source https://api.nuget.org/v3/index.json
