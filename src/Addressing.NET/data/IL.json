@@ -1,0 +1,5 @@
+{
+  "Key": "IL",
+  "Name": "ISRAEL",
+  "PostalCodePattern": "\\d{5}(?:\\d{2})?"
+}

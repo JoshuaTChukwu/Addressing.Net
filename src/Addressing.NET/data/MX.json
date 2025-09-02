@@ -1,0 +1,7 @@
+{
+  "Key": "MX",
+  "Name": "MEXICO",
+  "PostalCodePattern": "\\d{5}",
+  "SubKeys": "Ags.~B.C.~B.C.S.~Camp.~Chis.~Chih.~CDMX~Coah.~Col.~Dgo.~M\u00E9x.~Gto.~Gro.~Hgo.~Jal.~Mich.~Mor.~Nay.~N.L.~Oax.~Pue.~Qro.~Q.R.~S.L.P.~Sin.~Son.~Tab.~Tamps.~Tlax.~Ver.~Yuc.~Zac.",
+  "SubNames": "Aguascalientes~Baja California~Baja California Sur~Campeche~Chiapas~Chihuahua~Ciudad de M\u00E9xico~Coahuila de Zaragoza~Colima~Durango~Estado de M\u00E9xico~Guanajuato~Guerrero~Hidalgo~Jalisco~Michoac\u00E1n~Morelos~Nayarit~Nuevo Le\u00F3n~Oaxaca~Puebla~Quer\u00E9taro~Quintana Roo~San Luis Potos\u00ED~Sinaloa~Sonora~Tabasco~Tamaulipas~Tlaxcala~Veracruz~Yucat\u00E1n~Zacatecas"
+}

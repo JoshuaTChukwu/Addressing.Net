@@ -1,0 +1,5 @@
+{
+  "Key": "PR",
+  "Name": "PUERTO RICO",
+  "PostalCodePattern": "(00[679]\\d{2})(?:[ \\-](\\d{4}))?"
+}

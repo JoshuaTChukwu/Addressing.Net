@@ -1,0 +1,5 @@
+{
+  "Key": "LV",
+  "Name": "LATVIA",
+  "PostalCodePattern": "LV-\\d{4}"
+}

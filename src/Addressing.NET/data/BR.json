@@ -1,0 +1,7 @@
+{
+  "Key": "BR",
+  "Name": "BRAZIL",
+  "PostalCodePattern": "\\d{5}-?\\d{3}",
+  "SubKeys": "AC~AL~AP~AM~BA~CE~DF~ES~GO~MA~MT~MS~MG~PA~PB~PR~PE~PI~RJ~RN~RS~RO~RR~SC~SP~SE~TO",
+  "SubNames": "Acre~Alagoas~Amap\u00E1~Amazonas~Bahia~Cear\u00E1~Distrito Federal~Esp\u00EDrito Santo~Goi\u00E1s~Maranh\u00E3o~Mato Grosso~Mato Grosso do Sul~Minas Gerais~Par\u00E1~Para\u00EDba~Paran\u00E1~Pernambuco~Piau\u00ED~Rio de Janeiro~Rio Grande do Norte~Rio Grande do Sul~Rond\u00F4nia~Roraima~Santa Catarina~S\u00E3o Paulo~Sergipe~Tocantins"
+}

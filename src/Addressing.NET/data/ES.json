@@ -1,0 +1,7 @@
+{
+  "Key": "ES",
+  "Name": "SPAIN",
+  "PostalCodePattern": "\\d{5}",
+  "SubKeys": "VI~AB~A~AL~O~AV~BA~B~BU~CC~CA~S~CS~CE~CR~CO~CU~GI~GR~GU~SS~H~HU~PM~J~C~LO~GC~LE~L~LU~M~MA~ML~MU~NA~OR~P~PO~SA~TF~SG~SE~SO~T~TE~TO~V~VA~BI~ZA~Z",
+  "SubNames": "\u00C1lava~Albacete~Alicante~Almer\u00EDa~Asturias~\u00C1vila~Badajoz~Barcelona~Burgos~C\u00E1ceres~C\u00E1diz~Cantabria~Castell\u00F3n~Ceuta~Ciudad Real~C\u00F3rdoba~Cuenca~Girona~Granada~Guadalajara~Guip\u00FAzcoa~Huelva~Huesca~Islas Baleares~Ja\u00E9n~La Coru\u00F1a~La Rioja~Las Palmas~Le\u00F3n~L\u00E9rida~Lugo~Madrid~M\u00E1laga~Melilla~Murcia~Navarra~Ourense~Palencia~Pontevedra~Salamanca~Santa Cruz de Tenerife~Segovia~Sevilla~Soria~Tarragona~Teruel~Toledo~Valencia~Valladolid~Vizcaya~Zamora~Zaragoza"
+}

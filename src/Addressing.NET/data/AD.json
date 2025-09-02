@@ -1,0 +1,7 @@
+{
+  "Key": "AD",
+  "Name": "ANDORRA",
+  "PostalCodePattern": "AD[1-7]0\\d",
+  "SubKeys": "Parr\u00F2quia d\u0027Andorra la Vella~Canillo~Encamp~Escaldes-Engordany~La Massana~Ordino~Sant Juli\u00E0 de L\u00F2ria",
+  "SubNames": "Andorra la Vella~Canillo~Encamp~Escaldes-Engordany~La Massana~Ordino~Sant Juli\u00E0 de L\u00F2ria"
+}

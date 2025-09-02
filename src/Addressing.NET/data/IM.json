@@ -1,0 +1,5 @@
+{
+  "Key": "IM",
+  "Name": "ISLE OF MAN",
+  "PostalCodePattern": "IM\\d[\\dA-Z]? ?\\d[ABD-HJLN-UW-Z]{2}"
+}

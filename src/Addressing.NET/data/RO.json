@@ -1,0 +1,5 @@
+{
+  "Key": "RO",
+  "Name": "ROMANIA",
+  "PostalCodePattern": "\\d{6}"
+}

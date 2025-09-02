@@ -1,0 +1,5 @@
+{
+  "Key": "MP",
+  "Name": "NORTHERN MARIANA ISLANDS",
+  "PostalCodePattern": "(9695[012])(?:[ \\-](\\d{4}))?"
+}

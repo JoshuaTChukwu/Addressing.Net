@@ -1,0 +1,6 @@
+{
+  "Key": "NI",
+  "Name": "NICARAGUA",
+  "PostalCodePattern": "\\d{5}",
+  "SubKeys": "Boaco~Carazo~Chinandega~Chontales~Estel\u00ED~Granada~Jinotega~Le\u00F3n~Madriz~Managua~Masaya~Matagalpa~Nueva Segovia~Regi\u00F3n Aut\u00F3noma de la Costa Caribe Norte~Regi\u00F3n Aut\u00F3noma de la Costa Caribe Sur~R\u00EDo San Juan~Rivas"
+}

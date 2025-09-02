@@ -1,0 +1,5 @@
+{
+  "Key": "MH",
+  "Name": "MARSHALL ISLANDS",
+  "PostalCodePattern": "(969[67]\\d)(?:[ \\-](\\d{4}))?"
+}

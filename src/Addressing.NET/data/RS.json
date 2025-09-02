@@ -1,0 +1,5 @@
+{
+  "Key": "RS",
+  "Name": "REPUBLIC OF SERBIA",
+  "PostalCodePattern": "\\d{5,6}"
+}

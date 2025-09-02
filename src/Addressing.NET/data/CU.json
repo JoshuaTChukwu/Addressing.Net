@@ -1,0 +1,6 @@
+{
+  "Key": "CU",
+  "Name": "CUBA",
+  "PostalCodePattern": "\\d{5}",
+  "SubKeys": "Artemisa~Camag\u00FCey~Ciego de \u00C1vila~Cienfuegos~Granma~Guant\u00E1namo~Holgu\u00EDn~Isla de la Juventud~La Habana~Las Tunas~Matanzas~Mayabeque~Pinar del R\u00EDo~Sancti Sp\u00EDritus~Santiago de Cuba~Villa Clara"
+}

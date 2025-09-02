@@ -1,0 +1,5 @@
+{
+  "Key": "AS",
+  "Name": "AMERICAN SAMOA",
+  "PostalCodePattern": "(96799)(?:[ \\-](\\d{4}))?"
+}

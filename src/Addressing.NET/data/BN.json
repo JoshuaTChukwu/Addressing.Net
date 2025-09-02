@@ -1,0 +1,5 @@
+{
+  "Key": "BN",
+  "Name": "BRUNEI DARUSSALAM",
+  "PostalCodePattern": "[A-Z]{2} ?\\d{4}"
+}

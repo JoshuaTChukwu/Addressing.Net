@@ -1,0 +1,7 @@
+{
+  "Key": "AR",
+  "Name": "ARGENTINA",
+  "PostalCodePattern": "((?:[A-HJ-NP-Z])?\\d{4})([A-Z]{3})?",
+  "SubKeys": "Buenos Aires~Catamarca~Chaco~Chubut~Ciudad Aut\u00F3noma de Buenos Aires~C\u00F3rdoba~Corrientes~Entre R\u00EDos~Formosa~Jujuy~La Pampa~La Rioja~Mendoza~Misiones~Neuqu\u00E9n~R\u00EDo Negro~Salta~San Juan~San Luis~Santa Cruz~Santa Fe~Santiago del Estero~Tierra del Fuego~Tucum\u00E1n",
+  "SubNames": "Buenos Aires~Catamarca~Chaco~Chubut~Ciudad Aut\u00F3noma de Buenos Aires~C\u00F3rdoba~Corrientes~Entre R\u00EDos~Formosa~Jujuy~La Pampa~La Rioja~Mendoza~Misiones~Neuqu\u00E9n~R\u00EDo Negro~Salta~San Juan~San Luis~Santa Cruz~Santa Fe~Santiago del Estero~Tierra del Fuego~Tucum\u00E1n"
+}

@@ -1,0 +1,6 @@
+{
+  "Key": "KY",
+  "Name": "CAYMAN ISLANDS",
+  "PostalCodePattern": "KY\\d-\\d{4}",
+  "SubKeys": "Cayman Brac~Grand Cayman~Little Cayman"
+}

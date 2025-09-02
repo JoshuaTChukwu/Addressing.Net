@@ -1,0 +1,5 @@
+{
+  "Key": "TZ",
+  "Name": "TANZANIA (UNITED REP.)",
+  "PostalCodePattern": "\\d{4,5}"
+}

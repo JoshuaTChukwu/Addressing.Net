@@ -1,0 +1,5 @@
+{
+  "Key": "IQ",
+  "Name": "IRAQ",
+  "PostalCodePattern": "\\d{5}"
+}

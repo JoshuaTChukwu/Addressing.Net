@@ -4,15 +4,27 @@
     <TargetFrameworks>net9.0;net6.0;netstandard2.0</TargetFrameworks>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latestmajor</LangVersion>
     <PackageId>Addressing.NET</PackageId>
+    <Version>0.1.0</Version>
     <Authors>Joshua Tochukwu Chukwu</Authors>
     <Company>Addressing.NET</Company>
-    <Description>Reusable address metadata and validation library (postal regex, subdivisions, ISO country codes).</Description>
+    <Description>Reusable address metadata + validation (postal regex, subdivisions). Embedded or Chromium dataset.</Description>
     <PackageTags>address;postal;validation;geography;country;metadata</PackageTags>
-    <RepositoryUrl>https://github.com/JoshuaTChukwu/Addressing.Net.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/JoshuaTChukwu/Addressing.Net</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/JoshuaTChukwu/Addressing.Net</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <LangVersion>latestmajor</LangVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DebugType>portable</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    
   </PropertyGroup>
 
   <ItemGroup>

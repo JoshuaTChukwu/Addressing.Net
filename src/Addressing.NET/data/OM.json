@@ -1,0 +1,5 @@
+{
+  "Key": "OM",
+  "Name": "OMAN",
+  "PostalCodePattern": "(?:PC )?\\d{3}"
+}

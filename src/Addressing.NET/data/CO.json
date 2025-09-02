@@ -1,0 +1,6 @@
+{
+  "Key": "CO",
+  "Name": "COLOMBIA",
+  "PostalCodePattern": "\\d{6}",
+  "SubKeys": "Amazonas~Antioquia~Arauca~Atl\u00E1ntico~Bogot\u00E1~Bol\u00EDvar~Boyac\u00E1~Caldas~Caquet\u00E1~Casanare~Cauca~Cesar~Choc\u00F3~C\u00F3rdoba~Cundinamarca~Guain\u00EDa~Guaviare~Huila~La Guajira~Magdalena~Meta~Nari\u00F1o~Norte de Santander~Putumayo~Quind\u00EDo~Risaralda~San Andr\u00E9s y Providencia~Santander~Sucre~Tolima~Valle del Cauca~Vaup\u00E9s~Vichada"
+}

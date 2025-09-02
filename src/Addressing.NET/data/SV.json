@@ -1,0 +1,7 @@
+{
+  "Key": "SV",
+  "Name": "EL SALVADOR",
+  "PostalCodePattern": "CP [1-3][1-7][0-2]\\d",
+  "SubKeys": "Ahuachapan~Cabanas~Calatenango~Cuscatlan~La Libertad~La Paz~La Union~Morazan~San Miguel~San Salvador~San Vicente~Santa Ana~Sonsonate~Usulutan",
+  "SubNames": "Ahuachap\u00E1n~Caba\u00F1as~Chalatenango~Cuscatl\u00E1n~La Libertad~La Paz~La Uni\u00F3n~Moraz\u00E1n~San Miguel~San Salvador~San Vicente~Santa Ana~Sonsonate~Usulut\u00E1n"
+}

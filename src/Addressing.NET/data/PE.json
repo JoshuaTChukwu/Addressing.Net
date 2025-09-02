@@ -1,0 +1,6 @@
+{
+  "Key": "PE",
+  "Name": "PERU",
+  "PostalCodePattern": "(?:LIMA \\d{1,2}|CALLAO 0?\\d)|[0-2]\\d{4}",
+  "SubKeys": "Amazonas~\u00C1ncash~Apur\u00EDmac~Arequipa~Ayacucho~Cajamarca~Callao~Cuzco~Gobierno Regional de Lima~Huancavelica~Hu\u00E1nuco~Ica~Jun\u00EDn~La Libertad~Lambayeque~Loreto~Madre de Dios~Moquegua~Municipalidad Metropolitana de Lima~Pasco~Piura~Puno~San Mart\u00EDn~Tacna~Tumbes~Ucayali"
+}

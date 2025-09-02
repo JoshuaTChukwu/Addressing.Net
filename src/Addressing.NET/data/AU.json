@@ -1,0 +1,7 @@
+{
+  "Key": "AU",
+  "Name": "AUSTRALIA",
+  "PostalCodePattern": "\\d{4}",
+  "SubKeys": "ACT~JBT~NSW~NT~QLD~SA~TAS~VIC~WA",
+  "SubNames": "Australian Capital Territory~Jervis Bay Territory~New South Wales~Northern Territory~Queensland~South Australia~Tasmania~Victoria~Western Australia"
+}

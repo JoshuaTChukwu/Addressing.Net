@@ -1,0 +1,5 @@
+{
+  "Key": "VI",
+  "Name": "VIRGIN ISLANDS (U.S.)",
+  "PostalCodePattern": "(008(?:(?:[0-4]\\d)|(?:5[01])))(?:[ \\-](\\d{4}))?"
+}

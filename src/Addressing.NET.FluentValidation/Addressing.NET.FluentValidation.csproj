@@ -5,13 +5,22 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageId>Addressing.NET.FluentValidation</PackageId>
+    <Version>0.1.0</Version>
     <Authors>Joshua Tochukwu Chukwu</Authors>
     <Description>FluentValidation extensions for Addressing.NET library.</Description>
     <PackageTags>address;validation;fluentvalidation;postal;country</PackageTags>
-    <RepositoryUrl>https://github.com/JoshuaTChukwu/Addressing.Net.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/JoshuaTChukwu/Addressing.Net</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/JoshuaTChukwu/Addressing.Net</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <LangVersion>latestmajor</LangVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

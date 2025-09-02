@@ -1,0 +1,7 @@
+{
+  "Key": "CL",
+  "Name": "CHILE",
+  "PostalCodePattern": "\\d{7}",
+  "SubKeys": "Antofagasta~Araucan\u00EDa~Arica y Parinacota~Atacama~Ays\u00E9n~Biob\u00EDo~Coquimbo~O\u0027Higgins~Los Lagos~Los R\u00EDos~Magallanes~Maule~Regi\u00F3n Metropolitana~\u00D1uble~Tarapac\u00E1~Valpara\u00EDso",
+  "SubNames": "Antofagasta~Araucan\u00EDa~Arica y Parinacota~Atacama~Ays\u00E9n del General Carlos Ib\u00E1\u00F1ez del Campo~Biob\u00EDo~Coquimbo~Libertador General Bernardo O\u0027Higgins~Los Lagos~Los R\u00EDos~Magallanes y de la Ant\u00E1rtica Chilena~Maule~Metropolitana de Santiago~\u00D1uble~Tarapac\u00E1~Valpara\u00EDso"
+}

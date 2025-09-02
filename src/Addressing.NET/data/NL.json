@@ -1,0 +1,5 @@
+{
+  "Key": "NL",
+  "Name": "NETHERLANDS",
+  "PostalCodePattern": "[1-9]\\d{3} ?(?:[A-RT-Z][A-Z]|S[BCE-RT-Z])"
+}

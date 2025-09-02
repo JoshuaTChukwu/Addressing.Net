@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addressing.NET.FluentValida
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addressing.NET.Tests", "Addressing.NET.Tests\Addressing.NET.Tests.csproj", "{29A16915-582A-46E6-B0CA-192092E6BF77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addressing.NET.DataImport", "Addressing.NET.DataImport\Addressing.NET.DataImport.csproj", "{05D977B0-7F2B-4D52-A851-3ED058770A46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{29A16915-582A-46E6-B0CA-192092E6BF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29A16915-582A-46E6-B0CA-192092E6BF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29A16915-582A-46E6-B0CA-192092E6BF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D977B0-7F2B-4D52-A851-3ED058770A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D977B0-7F2B-4D52-A851-3ED058770A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D977B0-7F2B-4D52-A851-3ED058770A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D977B0-7F2B-4D52-A851-3ED058770A46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

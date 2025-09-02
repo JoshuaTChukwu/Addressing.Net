@@ -1,0 +1,6 @@
+{
+  "Key": "VE",
+  "Name": "VENEZUELA",
+  "PostalCodePattern": "\\d{4}",
+  "SubKeys": "Amazonas~Anzo\u00E1tegui~Apure~Aragua~Barinas~Bol\u00EDvar~Carabobo~Cojedes~Delta Amacuro~Dependencias Federales~Distrito Federal~Falc\u00F3n~Gu\u00E1rico~Lara~M\u00E9rida~Miranda~Monagas~Nueva Esparta~Portuguesa~Sucre~T\u00E1chira~Trujillo~Vargas~Yaracuy~Zulia"
+}

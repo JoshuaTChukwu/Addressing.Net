@@ -1,0 +1,6 @@
+{
+  "Key": "MY",
+  "Name": "MALAYSIA",
+  "PostalCodePattern": "\\d{5}",
+  "SubKeys": "Johor~Kedah~Kelantan~Kuala Lumpur~Labuan~Melaka~Negeri Sembilan~Pahang~Perak~Perlis~Pulau Pinang~Putrajaya~Sabah~Sarawak~Selangor~Terengganu"
+}
