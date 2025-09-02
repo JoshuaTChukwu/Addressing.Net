@@ -28,11 +28,19 @@ public sealed class ChromiumAddressDataClient : IDisposable
         {
             if (!resp.IsSuccessStatusCode) return null;
 
-            var stream = await resp.Content.ReadAsStreamAsync(ct).ConfigureAwait(false);
+            Stream stream;
+        #if NETSTANDARD2_0
+            stream = await resp.Content.ReadAsStreamAsync().ConfigureAwait(false);
+        #else
+            stream = await resp.Content.ReadAsStreamAsync(ct).ConfigureAwait(false);
+        #endif
+
             return await JsonSerializer.DeserializeAsync<ChromiumCountryData>(
                 stream,
-                new JsonSerializerOptions { PropertyNameCaseInsensitive = true },
-                ct
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
+        #if !NETSTANDARD2_0
+                , ct
+        #endif
             ).ConfigureAwait(false);
         }
     }
