@@ -9,9 +9,21 @@
     <Company>Addressing.NET</Company>
     <Description>Reusable address metadata and validation library (postal regex, subdivisions, ISO country codes).</Description>
     <PackageTags>address;postal;validation;geography;country;metadata</PackageTags>
-    <RepositoryUrl>https://github.com/yourusername/addressing-net</RepositoryUrl>
+    <RepositoryUrl>https://github.com/JoshuaTChukwu/Addressing.Net.git</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="data\**\*.json" />
+  </ItemGroup>
+  <ItemGroup>
+  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <!-- netstandard2.0 needs explicit System.Text.Json -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.Text.Json" Version="8.0.4" />
+  </ItemGroup>
 
 </Project>
