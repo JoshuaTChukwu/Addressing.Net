@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net9.0;net6.0;netstandard2.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>Addressing.NET</PackageId>
+    <Authors>Joshua Tochukwu Chukwu</Authors>
+    <Company>Addressing.NET</Company>
+    <Description>Reusable address metadata and validation library (postal regex, subdivisions, ISO country codes).</Description>
+    <PackageTags>address;postal;validation;geography;country;metadata</PackageTags>
+    <RepositoryUrl>https://github.com/yourusername/addressing-net</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
