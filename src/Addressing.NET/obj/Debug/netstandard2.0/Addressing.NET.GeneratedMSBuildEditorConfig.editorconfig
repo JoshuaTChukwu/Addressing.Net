@@ -1,8 +1,0 @@
-is_global = true
-build_property.RootNamespace = Addressing.NET
-build_property.ProjectDir = /Users/rexygadget/Documents/Personal Projects/Addressing.Net/src/Addressing.NET/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 
