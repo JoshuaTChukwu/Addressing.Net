@@ -24,7 +24,6 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <DebugType>portable</DebugType>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    
   </PropertyGroup>
 
   <ItemGroup>
