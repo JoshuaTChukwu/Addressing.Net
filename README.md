@@ -1,5 +1,9 @@
 # Addressing.NET
 
+[![NuGet](https://img.shields.io/nuget/v/Addressing.NET.svg)](https://www.nuget.org/packages/Addressing.NET/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Addressing.NET.svg)](https://www.nuget.org/packages/Addressing.NET/)
+[![Build](https://github.com/JoshuaTChukwu/Addressing.Net/actions/workflows/release.yml/badge.svg)](https://github.com/JoshuaTChukwu/Addressing.Net/actions)
+
 **Addressing.NET** is a reusable .NET library for validating and normalizing
 address data (postal codes, country subdivisions, etc.) using either:
 
@@ -76,3 +80,8 @@ dotnet test Addressing.NET.sln
 ## 📄 License
 
 MIT © 2025 Joshua Tochukwu Chukwu
+
+## Contact
+- 📧 Email: [jchukwu61@gmail.com](mailto:jchukwu61@gmail.com)  
+- 💼 LinkedIn: [Joshua Tochukwu Chukwu](https://www.linkedin.com/in/joshua-chukwu-653196192/)  
+- 🖥 GitHub: [JoshuaTChukwu](https://github.com/JoshuaTChukwu)
